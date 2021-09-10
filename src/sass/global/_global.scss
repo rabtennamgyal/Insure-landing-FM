@@ -10,3 +10,41 @@ html, body {
     font-size: 62.5%;
     box-sizing: border-box;
 }
+
+
+.flex {
+    display: flex;
+
+    &-jc-c {
+        justify-content: center;
+    }
+
+    &-jc-sb {
+        justify-content: space-between;
+    }
+
+    &-ai-c {
+        align-items: center;
+    }
+}
+
+
+.grid {
+    display: grid;
+
+    &-two-col {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    &-jc-c {
+        justify-content: center;
+    }
+
+    &-jc-s {
+        justify-content: start;
+    }
+
+    &-ai-c {
+        align-items: center;
+    }
+}

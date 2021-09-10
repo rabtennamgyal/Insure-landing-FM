@@ -1,4 +1,42 @@
 .navbar {
     height: 8rem;
-    background: red;
+    border-bottom: 1px solid;
+
+    .navOne {
+        
+        img {
+            cursor: pointer;
+            margin-left: 8rem;
+        }
+    }
+
+    .navTwo {
+
+        li {
+            cursor: pointer;
+            letter-spacing: .1rem;
+            color: $darkGrayishViolet;
+            font-family: Karla, sans-serif;
+            font-size: 1.35rem;
+            font-weight: 700;
+            margin: 0 1.6rem 0 1.6rem;
+            list-style: none;
+
+            &:hover {
+                color: $veryDarkViolet;
+            }
+
+            &:last-child {
+                color: $veryDarkViolet;
+                border: 1px solid;
+                padding: 1.2rem 3.5rem;
+                transition: 0.4s ease-in;
+
+                &:hover {
+                    color: $white;
+                    background: $veryDarkViolet;
+                }
+            }
+        }
+    }
 }
