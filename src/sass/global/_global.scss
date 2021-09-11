@@ -40,8 +40,16 @@ html, body {
 .grid {
     display: grid;
 
+    &-one-col {
+        grid-template-columns: 1fr;
+    }
+
     &-two-col {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    &-two-row {
+        grid-template-rows: .6fr 2fr;
     }
 
     &-jc-c {
