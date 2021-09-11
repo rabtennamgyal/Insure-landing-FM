@@ -1,11 +1,7 @@
 
 .navbar {
     position: relative;
-    height: 14vh;
-
-    @include respond(phone) {
-        height: 10vh;
-    }
+    height: 10vh;
 
     .navOne {
         
@@ -20,6 +16,7 @@
     }
 
     .navTwo {
+        width: 93%;
 
         @include respond(phone) {
             display: none;
@@ -42,7 +39,7 @@
             &:last-child {
                 color: $veryDarkViolet;
                 border: 1px solid;
-                padding: 1.2rem 3.5rem;
+                padding: 1rem 3rem;
                 transition: 0.4s ease-in;
 
                 &:hover {

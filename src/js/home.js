@@ -27,14 +27,10 @@ function Home() {
             </div>
 
             <div className='homeTwo'>
-                <div className='contentOne'>
+                <div className='contentOne grid'>
                     <div className='imgBox'>
                         <img src={img} alt='pattern' />
                     </div>
-                </div>
-
-                <div className='contentTwo'>
-
                 </div>
             </div>
         </div>

@@ -20,12 +20,12 @@ function Navbar() {
     }
 
     return (
-        <nav className='navbar grid grid-two-col'>
+        <nav className='navbar grid grid-col-1-2'>
             <div className='navOne grid grid-jc-s grid-ai-c'>
                 <img src={logo} alt='logo' />
             </div>
 
-            <div className='navTwo flex flex-jc-c flex-ai-c'>
+            <div className='navTwo flex flex-jc-fe flex-ai-c'>
                 <li>
                     HOW WE WORK
                 </li>

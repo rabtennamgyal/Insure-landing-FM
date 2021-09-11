@@ -40,6 +40,10 @@ html, body {
 .grid {
     display: grid;
 
+    &-col-1-2 {
+        grid-template-columns: 1fr 2.5fr;
+    }
+
     &-one-col {
         grid-template-columns: 1fr;
     }
