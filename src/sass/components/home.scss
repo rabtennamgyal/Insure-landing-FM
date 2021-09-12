@@ -11,6 +11,7 @@
         height: 100%;
 
         @include respond(phone) {
+            height: 40vh;
             grid-row: 2 / 3;
         }
 
@@ -97,7 +98,7 @@
 
         @include respond(phone) {
             border: solid #fff;
-            //height: 60vh;
+            height: 60vh;
             grid-row: 1 / 2;
         }
 
@@ -110,7 +111,8 @@
 
             @include respond(phone) {
                 height: 100%;
-                background-size: contain;
+                //background-size: contain;
+                background-size: cover;
                 background-image: url('../../images/image-intro-mobile.jpg');
                 background-position: center;
             }
