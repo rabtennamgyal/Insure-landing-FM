@@ -3,8 +3,8 @@ import img from '../images/intro-desk-right.svg';
 function Home() {
     return (
         <div className='home grid grid-two-col'>
-            <div className='homeOne grid grid-one-col grid-two-row'>
-                <div className='boxOne grid grid-jc-c grid-ai-c'>
+            <div className='homeOne grid'>
+                <div className='boxOne grid grid-jc-c grid-ai-e'>
                     <span>
 
                     </span>
@@ -28,9 +28,11 @@ function Home() {
 
             <div className='homeTwo'>
                 <div className='contentOne grid'>
-                    <div className='imgBox'>
-                        <img src={img} alt='pattern' />
-                    </div>
+                    {
+                        /*
+                        This is an empty div for the background images.
+                        */
+                    }
                 </div>
             </div>
         </div>

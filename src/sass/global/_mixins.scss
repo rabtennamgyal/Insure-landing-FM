@@ -5,8 +5,14 @@
         }
     }
 
+    @if ($breakpoint == mid) {
+        @media (min-width: 751px) and (max-width: 899px) {
+            @content;
+        }
+    }
+
     @if $breakpoint == desk {
-        @media (min-width: 751px) and (max-width: 1440px) {
+        @media (min-width: 900px) and (max-width: 1440px) {
             @content;
         }
     }
