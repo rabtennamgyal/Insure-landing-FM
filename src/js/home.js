@@ -12,7 +12,12 @@ function Home() {
 
                 <div className='boxTwo flex flex-col'>
                     <h1>
-                        Humanizing your insurance.
+                        <span id='human'>
+                            Humanizing 
+                        </span>
+                        <span>
+                            your insurance.
+                        </span>
                     </h1>
                     <p>
                         Get your life insurance coverage easier and faster. 
