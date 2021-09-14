@@ -111,6 +111,7 @@
     }
 
     .homeTwo {
+        border: solid;
         height: 100%;
 
         @include respond(phone) {
@@ -123,7 +124,8 @@
             height: 130%;
             background-repeat:  no-repeat;
             background-image: url('../../images/intro-desk-right.svg'), url('../../images/image-intro-desktop.jpg');
-            background-position: top -10rem right, bottom left;
+            //background-position: top -10rem right, bottom left;
+            background-position: top right, bottom left;
 
             @include respond(phone) {
                 height: 100%;
