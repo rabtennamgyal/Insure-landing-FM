@@ -1,6 +1,7 @@
 .home {
     background: $darkViolet;
-    height: 90vh;
+    //height: 80vh;
+    height: 55rem;
 
     @include respond(phone) {
         height: 120vh;
@@ -111,7 +112,6 @@
     }
 
     .homeTwo {
-        border: solid;
         height: 100%;
 
         @include respond(phone) {
@@ -121,7 +121,7 @@
 
         .contentOne {
             position: relative;
-            height: 145%;
+            height: 140%;
             //height: 100%;
             background-repeat:  no-repeat;
             background-image: url('../../images/intro-desk-right.svg'), url('../../images/image-intro-desktop.jpg');
