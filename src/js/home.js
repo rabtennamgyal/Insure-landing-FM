@@ -1,4 +1,4 @@
-import img from '../images/intro-desk-right.svg';
+
 
 function Home() {
     return (

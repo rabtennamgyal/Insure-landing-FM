@@ -1,0 +1,48 @@
+.home2 {
+    position: relative;
+    height: 100vh;
+
+    .home2One {
+        height: 60rem;
+        width: 20rem;
+        position: absolute;
+        background-image: url('../../images/bg-pattern-intro-left-desktop.svg');
+        background-repeat: no-repeat;
+        background-position: center left;
+        bottom: 19rem;
+
+        @include respond(phone) {
+            display: none;
+        }
+    }
+
+    .home2Two {
+        height: 150vh;
+
+        .containerTwo {
+            
+            .boxOne {
+                row-gap: 5rem;
+                height: 95%;
+                width: 93%;
+                justify-self: right;
+
+                span {
+                    height: 1px;
+                    width: 13rem;
+                    border-bottom: 1px solid #bd71bd;
+                }
+
+                h1 {
+                    font-family: DMSerif;
+                    font-size: 7.5rem;
+                    letter-spacing: -1px;
+                }
+            }
+
+            .boxTwo {
+                border: solid;
+            }
+        }
+    }
+}

@@ -31,6 +31,10 @@ html, body {
         align-items: center;
     }
 
+    &-jc-e {
+        justify-content: flex-end;
+    }
+
     &-col {
         flex-direction: column;
     }
@@ -50,6 +54,10 @@ html, body {
 
     &-two-col {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    &-two-rows {
+        grid-template-rows: 1fr 1.5fr;
     }
 
     &-two-row {
