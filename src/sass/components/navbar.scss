@@ -16,7 +16,8 @@
     }
 
     .navTwo {
-        width: 93%;
+        //width: 93%;
+        width: 85%;
 
         @include respond(phone) {
             display: none;
