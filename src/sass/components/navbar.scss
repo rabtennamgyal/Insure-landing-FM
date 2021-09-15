@@ -7,7 +7,7 @@
         
         img {
             cursor: pointer;
-            margin-left: 8rem;
+            margin-left: 13rem;
 
             @include respond(phone) {
                 margin: 0 4rem;
@@ -39,8 +39,8 @@
 
             &:last-child {
                 color: $veryDarkViolet;
-                border: 1px solid;
-                padding: 1rem 3rem;
+                border: 2px solid;
+                padding: 1rem 2.5rem;
                 transition: 0.4s ease-in;
 
                 &:hover {
