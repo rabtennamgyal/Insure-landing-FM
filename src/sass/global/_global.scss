@@ -56,6 +56,10 @@ html, body {
         grid-template-columns: repeat(2, 1fr);
     }
 
+    &-three-col {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
     &-two-rows {
         grid-template-rows: 1fr 1.5fr;
     }

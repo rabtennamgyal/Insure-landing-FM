@@ -9,7 +9,7 @@
         background-image: url('../../images/bg-pattern-intro-left-desktop.svg');
         background-repeat: no-repeat;
         background-position: center left;
-        bottom: 19rem;
+        bottom: 50rem;
 
         @include respond(phone) {
             display: none;
@@ -17,7 +17,8 @@
     }
 
     .home2Two {
-        height: 150vh;
+        //height: 150vh;
+        height: 90rem;
 
         .containerTwo {
             
@@ -35,13 +36,45 @@
 
                 h1 {
                     font-family: DMSerif;
-                    font-size: 7.5rem;
+                    //font-size: 7.5rem;
+                    font-size: 7rem;
                     letter-spacing: -1px;
                 }
             }
 
             .boxTwo {
-                border: solid;
+                justify-self: flex-end;
+                align-self: flex-end;
+                width: 92%;
+                height: 90%;
+
+                @include respond(phone) {
+                    display: grid;
+                    grid-template-columns: 1fr;
+                }
+
+                .boxes {
+                    align-items: flex-start;
+                    row-gap: 4rem;
+                    
+                    img {
+                        height: 8rem;
+                        width: 8rem;
+                    }
+
+                    h1 {
+                        font-size: 3rem;
+                        font-family: DM serif;
+                    }
+                    
+                    p {
+                        margin-top: -2.5rem;
+                        line-height: 3rem;
+                        font-size: 1.6rem;
+                        font-family: karla;
+                        color: $darkGrayishViolet;
+                    }
+                }
             }
         }
     }
