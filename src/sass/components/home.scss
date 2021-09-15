@@ -39,7 +39,7 @@
             justify-self: right;
             padding: 0 6rem;
             width: 90%;
-            row-gap: 4rem;
+            row-gap: 3rem;
 
             @include respond(phone) {
                 padding: 0;
@@ -55,7 +55,7 @@
                 color: $veryLightGray;
                 font-family: DMserif;
                 //font-size: 7.2rem;
-                font-size: 6.5rem;
+                font-size: 6.3rem;
                 letter-spacing: .1px;
                 line-height: 6rem;
                 display: grid;
