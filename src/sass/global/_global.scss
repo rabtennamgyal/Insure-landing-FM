@@ -48,6 +48,10 @@ html, body {
         grid-template-columns: 1fr 2.5fr;
     }
 
+    &-col-2-1 {
+        grid-template-columns: 1.3fr 1fr;
+    }
+
     &-one-col {
         grid-template-columns: 1fr;
     }
@@ -82,5 +86,9 @@ html, body {
 
     &-ai-e {
         align-items: flex-end;
+    }
+
+    &-pi-c {
+        place-items: center;
     }
 }
