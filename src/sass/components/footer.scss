@@ -1,0 +1,77 @@
+.footer {
+    height: 40rem;
+    background-image: url('../../images/bg-pattern-footer-desktop.svg');
+    background-repeat: no-repeat;
+
+    @include respond(phone) {
+        height: 100rem;
+        background-image: url('../../images/bg-pattern-footer-mobile.svg');
+        background-size: 50rem;
+    }
+
+    .footerOne {
+        border-bottom: .5px solid $darkViolet;
+        width: 80%;
+        justify-self: center;
+
+        @include respond(phone) {
+            grid-template-columns: 1fr;
+        }
+
+        .footeroneOne {
+
+            @include respond(phone) {
+                place-items: center;
+            }
+        }
+
+        .footeroneTwo {
+
+            @include respond(phone) {
+                justify-content: center;
+                align-items: center;
+            }
+
+            img {
+                cursor: pointer;
+                margin: 0 .7rem;
+            }
+        }
+    }
+
+    .footerTwo {
+        grid-template-columns: 1fr;
+        justify-self: center;
+        width: 80%;
+        
+        .footertwo3, .footertwo4 {
+            height: 88%;
+
+            @include respond(phone) {
+                height: 100%;
+            }
+        }
+
+        .box {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            font-family: karla, monospace;
+
+            h1 {
+                color: $darkGrayishViolet;
+                font-size: 1.3rem;
+                margin-bottom: 3rem;
+            }
+
+            li {
+                color: $darkViolet;
+                list-style:  none;
+                font-size: 1.3rem;
+                font-weight: 700;
+                margin: 1rem 0 .5rem 0;
+            }
+        }
+    }
+}

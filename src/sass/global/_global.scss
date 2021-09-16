@@ -64,12 +64,20 @@ html, body {
         grid-template-columns: repeat(3, 1fr);
     }
 
+    &-four-col {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
     &-two-rows {
         grid-template-rows: 1fr 1.5fr;
     }
 
     &-two-row {
         grid-template-rows: .6fr 2fr;
+    }
+
+    &-footer-row {
+        grid-template-rows: 1fr 3fr;
     }
 
     &-jc-c {
