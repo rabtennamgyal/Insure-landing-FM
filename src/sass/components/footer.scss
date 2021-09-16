@@ -4,7 +4,7 @@
     background-repeat: no-repeat;
 
     @include respond(phone) {
-        height: 100rem;
+        height: 120rem;
         background-image: url('../../images/bg-pattern-footer-mobile.svg');
         background-size: 50rem;
     }
@@ -22,6 +22,7 @@
 
             @include respond(phone) {
                 place-items: center;
+                margin-bottom: -13rem;
             }
         }
 
@@ -40,9 +41,16 @@
     }
 
     .footerTwo {
-        grid-template-columns: 1fr;
         justify-self: center;
         width: 80%;
+
+        @include respond(phone) {
+            grid-template-columns: 1fr;
+
+            &:last-child {
+                margin-bottom: 3rem;
+            }
+        }
         
         .footertwo3, .footertwo4 {
             height: 88%;
@@ -59,10 +67,20 @@
             align-items: flex-start;
             font-family: karla, monospace;
 
+            @include respond(phone) {
+                margin: 3rem 0;
+                align-items: center;
+            }
+
             h1 {
                 color: $darkGrayishViolet;
                 font-size: 1.3rem;
                 margin-bottom: 3rem;
+
+                @include respond(phone) {
+                    font-size: 1.6rem;
+                    margin-bottom: 2rem;
+                }
             }
 
             li {
@@ -71,6 +89,10 @@
                 font-size: 1.3rem;
                 font-weight: 700;
                 margin: 1rem 0 .5rem 0;
+                
+                @include respond(phone) {
+                    font-size: 1.6rem;
+                }
             }
         }
     }
