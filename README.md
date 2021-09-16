@@ -19,8 +19,8 @@ Front-End Mentor challenge build using React and Sass.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/responsive-desktop-first-site-build-using-react-and-sass-zkXh5FIgJ)
+- Live Site URL: [Add live site URL here](https://mighty-sierra-02192.herokuapp.com/)
 
 ## My process
 
