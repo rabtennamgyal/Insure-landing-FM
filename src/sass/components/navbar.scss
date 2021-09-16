@@ -8,7 +8,8 @@
         
         img {
             cursor: pointer;
-            margin-left: 13rem;
+           // margin-left: 13rem;
+            margin-left: 16rem;
 
             @include respond(phone) {
                 margin: 0 4rem;
