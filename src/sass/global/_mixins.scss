@@ -5,6 +5,12 @@
         }
     }
 
+    @if ($breakpoint == mids) {
+        @media (min-width: 751px) and (max-width: 1200px) {
+            @content;
+        }
+    }
+
     @if ($breakpoint == mid) {
         @media (min-width: 751px) and (max-width: 899px) {
             @content;

@@ -18,6 +18,10 @@
             background-size: contain;
         }
 
+        @include respond(mids) {
+            width: 100%;
+        }
+
         .contentBoxOne {
             height: 100%;
             width: 100%;
